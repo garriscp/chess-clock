@@ -1,0 +1,3 @@
+# Chess Clock Project
+
+This is an example of a Chess Clock Web App built in Vanilla JS.  I tried to go for as OO and DRY as possible.  I created two objects - ChessClock and ChessGame.  The ChessClock handles anything for that specific clock (stopping or starting the timer, dispatching events based on things that have happened, etc.), and the ChessGame handles anything that outside of the individual clock's responsibility (listening for events like when one clock is stopped, the game tells the other clock to start, etc.)  I didn't want the clocks to be tightly coupled to each other. 

@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+.content {
+    margin: 50px auto;
+    width: 700px;
+    text-align: center;
+}
+
+.chessclock {
+    padding: 10px;
+    border: 1px solid #295A33;
+    background-color: #6C9A74;
+    font-family: 'Ruluko', sans-serif;
+}
+
+.chessclock__timer {
+    font-size: 48px;
+}
+
+#left-clock {
+    float: left;
+}
+
+#right-clock {
+    float: right;
+}
